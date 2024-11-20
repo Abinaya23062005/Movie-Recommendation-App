@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" href="img/filmico.png" />
+		<title>Movie App</title>
+	</head>
+	<body>
+		<header>
+			<div class="logos">
+				<a href="#"
+					><img class="logo" src="img/download.jpg" alt="FilMere Logo"
+				/></a>
+				<a
+					href="https://github.com/Abinaya23062005"
+					title="GitHub Code"
+					target="_blank"
+					><img src="img/git.png" class="git" alt="GitHub Icon"
+				/></a>
+			</div>
+			<form id="form">
+				<input
+					type="text"
+					placeholder="Search Here"
+					id="search"
+					class="search"
+				/>
+			</form>
+		</header>
+		<div id="tags"></div>
+		<div id="myNav" class="overlay">
+			<!-- Button to close the overlay navigation -->
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+				>&times;</a
+			>
+
+			<!-- Overlay content -->
+			<div class="overlay-content" id="overlay-content"></div>
+
+			<a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow"
+				>&#8656;</a
+			>
+
+			<a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow"
+				>&#8658;</a
+			>
+		</div>
+		<main id="main"></main>
+		<div class="pagination">
+			<div class="page" id="prev">&#8656; Prev</div>
+			<div class="current" id="current">1</div>
+			<div class="page" id="next">Next &#8658;</div>
+		</div>
+
+		<a href="https://www.linkedin.com/in/abinaya-d-03a830278?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BD5g2OCKWTKaApyb%2F5rjq1w%3D%3D" class="gateremark" target="_blank"
+			>By Abinay.....</a
+		>
+		<span class="loader"></span>
+		<script src="script.js"></script>
+		<script
+			src="https://kit.fontawesome.com/f7a442f79b.js"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
